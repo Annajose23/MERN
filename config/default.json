@@ -1,3 +1,4 @@
 {
-    "mongoURI" : "mongodb+srv://anna123:anna123@cluster0.cmoxm.mongodb.net/Cluster0?retryWrites=true&w=majority"
+    "mongoURI" : "mongodb+srv://anna123:anna123@cluster0.cmoxm.mongodb.net/Cluster0?retryWrites=true&w=majority",
+    "jwtSecret" : "mySecret"
 }
