@@ -3,6 +3,9 @@ const app = express();
 const connectDB = require('./db');
 
 connectDB();
+//init middleware
+//instead of importing bodyparser
+app.use(express.json({extended : false}))
 
 app.get('/', (req,res) =>res.send('API Running'));
 app.use('/api/users',require('./routes/users'));
